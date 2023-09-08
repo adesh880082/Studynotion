@@ -1,7 +1,7 @@
 {
   "name": "react-tailwind-css-starter-pack",
   "version": "0.1.0",
-  "proxy":"https://studynotion-beta.vercel.app",
+  "proxy":"https://studynotion-backend-hh4t.onrender.com",
   "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.0.3",
