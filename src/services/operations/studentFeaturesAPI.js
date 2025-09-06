@@ -67,6 +67,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
             }
         }
         console.log("Debugging Options", options);
+        console.log("Checking again");
         //miss hogya tha
         const paymentObject = new window.Razorpay(options);
         paymentObject.open();
