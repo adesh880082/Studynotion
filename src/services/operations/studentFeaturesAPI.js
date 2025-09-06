@@ -63,6 +63,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
             handler: function(response) {
                 //send successful wala mail
                 sendPaymentSuccessEmail(response, orderResponse.data.message.amount,token );
+                console.log("Payment success response:", response);
                 //verifyPayment
                 verifyPayment({...response, courses}, token, navigate, dispatch);
             }
