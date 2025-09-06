@@ -66,6 +66,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
                 verifyPayment({...response, courses}, token, navigate, dispatch);
             }
         }
+        console.log("Debugging Options", options);
         //miss hogya tha
         const paymentObject = new window.Razorpay(options);
         paymentObject.open();
