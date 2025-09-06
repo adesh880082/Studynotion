@@ -47,6 +47,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
         }
         console.log("PRINTING orderResponse", orderResponse);
         //options
+        console.log("Normal check");
         console.log("Env check:", process.env);
         console.log("Razorpay Frontend Key:", process.env.REACT_APP_RAZORPAY_KEY);
         const options = {
